@@ -6,10 +6,10 @@ name: Python package
 on:
   push:
     branches:
-      - master
+      - main
       - 'feature/**'
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
